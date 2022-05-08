@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Invoice Creator</title>
+</head>
+
+<body>
+    <section class="title-section">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCrop, LLC!</p>
+    </section>
+    <section class="details-container">
+        <div class="avail-services">
+            <button id="wash-btn" class="order-btn">Wash Car: $10</button>
+            <button id="mowlawn-btn" class="order-btn">Mow Lawn Car: $20</button>
+            <button id="pullweeds-btn" class="order-btn">Pull Weeds: $30</button>
+        </div>
+
+        <div class="hints-text-container">
+            <span>TASK</span>
+            <span>TOTAL</span>
+        </div>
+
+        <ul id="items-container"> 
+            <!-- <div class="space"></div> -->
+        </ul>
+
+        <div class="line"></div>
+        <div class="hints-text-container">
+            <span>NOTES</span>
+            <span>TOTAL AMOUNT</span>
+        </div>
+
+        <div class="total-details">
+            <p id="payments-methods">We accept cash, credit, or PayPal</p>
+            <span id="total-amount">$0</span>
+        </div>
+
+        <button id="reset-btn" class="order-btn">Send invoice</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
